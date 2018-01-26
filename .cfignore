@@ -1,0 +1,5 @@
+*.yml
+Procfile
+Dockerfile
+README.md
+*.go

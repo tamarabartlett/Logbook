@@ -1,7 +1,7 @@
 applications:
 - name: go-server
   buildpack: binary_buildpack
-  path: ./cf-binary
+  path: .
   disk_quota: 1G
   env:
     GOPACKAGENAME: go-server
