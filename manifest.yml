@@ -1,0 +1,11 @@
+applications:
+- name: go-server
+  buildpack: binary_buildpack
+  disk_quota: 1G
+  env:
+    GOPACKAGENAME: go-server
+  instances: 2
+  memory: 512M
+  routes:
+  - route: go-server.cfapps.io
+  stack: cflinuxfs2

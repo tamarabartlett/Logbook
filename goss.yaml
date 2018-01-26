@@ -1,4 +1,0 @@
-file:
-  /go/src/go-server/index.html:
-    exists: true
-    contains: []
